@@ -1,4 +1,4 @@
-header {
+.sectionOne {
   margin-top: -20px;
   background: url(../img/theGroup.JPG) no-repeat center center;
   width: 100%;
@@ -11,12 +11,48 @@ header {
   -o-background-size: cover;
 }
 
-.header-info {
+.sectionOne-info {
+  background-color:rgba(150,150,150,0.5);
   position: absolute;
   bottom: 0;
   width: 100%;
   left: 0;
   right: 0;
   margin-left: 0px;
-  margin-bottom: 11%;
+  margin-right: 0px;
+  margin-bottom: 1%;
+}
+
+
+
+.title-one {
+  letter-spacing: -1px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.lead {
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+@media only screen 
+  and (max-device-width : 800px) {
+    .title-one {
+      font-size: 40px;
+      line-height: 40px;
+    }
+    .lead {
+      font-size: 15px;
+    }
+  }
+@media only screen 
+and (min-device-width : 800px) {
+  .title-one {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .lead {
+    font-size: 21px;
+  }
 }
