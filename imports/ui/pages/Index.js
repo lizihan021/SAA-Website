@@ -18,7 +18,7 @@ const Index = () => (
 	        	<h1 className="wow fadeIn">WELCOME TO SJTU-AA</h1>
 	        	<br />
 	        	<div className="wow fadeIn" data-wow-delay="0.5s">
-	        		<p className="lead" >SJTU STUDENT & ALUMNI ASSOCIATION.</p>
+	        		<p className="lead" >SJTU STUDENT & ALUMNI ASSOCIATION AT UM</p>
 
 	      		</div>
 	      		</div>
