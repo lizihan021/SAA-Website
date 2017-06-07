@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Row, Col, FormGroup, ControlLabel, FormControl, Button } from 'react-bootstrap';
+import { Grid, Row, Col, FormGroup, ControlLabel, FormControl, Button, Thumbnail} from 'react-bootstrap';
 
 const About= () => (
   <div className="About">
@@ -108,6 +108,53 @@ const About= () => (
 		    </li>
 		    <li className="clearfix no-float"></li>
 		</ul>
+		<h2 className="page-header">Who we are:</h2>
+		<Grid>
+    <Row>
+    <Col xs={6} sm={4} md={3}>
+      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
+        <h3>Thumbnail label</h3>
+        <p>Description</p>
+      </Thumbnail>
+    </Col>
+    <Col xs={6} sm={4} md={3}>
+      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
+        <h3>Thumbnail label</h3>
+        <p>Description</p>
+      </Thumbnail>
+    </Col>
+    <Col xs={6} sm={4} md={3}>
+      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
+        <h3>Thumbnail label</h3>
+        <p>Description</p>
+      </Thumbnail>
+    </Col>
+    <Col xs={6} sm={4} md={3}>
+      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
+        <h3>Thumbnail label</h3>
+        <p>Description</p>
+      </Thumbnail>
+    </Col>
+    <Col xs={6} sm={4} md={3}>
+      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
+        <h3>Thumbnail label</h3>
+        <p>Description</p>
+      </Thumbnail>
+    </Col>
+    <Col xs={6} sm={4} md={3}>
+      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
+        <h3>Thumbnail label</h3>
+        <p>Description</p>
+      </Thumbnail>
+    </Col>
+    <Col xs={6} sm={4} md={3}>
+      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
+        <h3>Thumbnail label</h3>
+        <p>Description</p>
+      </Thumbnail>
+    </Col>
+    </Row>
+  </Grid>
 	</div>
 );
 
