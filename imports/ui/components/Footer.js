@@ -5,7 +5,6 @@ const Footer = () => (
     <div className="footer-content">
     	<Grid>
     		<Row>
-                <Col sm={3} md={1}></Col>
                 <Col sm={6} md={3}>
                     <h5>ADDRESS</h5>
                     500 S. State Street,<br/>
@@ -26,7 +25,8 @@ const Footer = () => (
                     <i className="fa fa-phone"></i> Phone: +1 (734) 764-1817<br/>
                     <i className="fa fa-envelope"></i> Email: <a href="mailto:sjtusaa-board-2017@umich.edu">sjtusaa-board-2017@umich.edu</a>
                 </Col>
-                <Col sm={3} md={2}>
+                <Col sm={6} md={3}>
+                    <h5>ANALISTICS</h5>
                     You are the first visitor.
                 </Col>
             </Row>
