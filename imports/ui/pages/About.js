@@ -96,7 +96,7 @@ const About= () => (
 		        </div>
 		    </li>
 		    
-		    <li  className="timeline-inverted wow fadeInDown"  data-wow-delay="0.5s">
+		    <li  className="timeline-inverted wow fadeInDown"  data-wow-delay="0.4">
 		        <div className="timeline-badge">
 		            <a><i className="fa fa-circle invert" id=""></i></a>
 		        </div>
@@ -140,19 +140,19 @@ const About= () => (
 		        <p>Description</p>
 		      </Thumbnail>
 		    </Col>
+		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.2s">
+		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
+		        <h3>Thumbnail label</h3>
+		        <p>Description</p>
+		      </Thumbnail>
+		    </Col>
+		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.3s">
+		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
+		        <h3>Thumbnail label</h3>
+		        <p>Description</p>
+		      </Thumbnail>
+		    </Col>
 		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.4s">
-		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
-		        <h3>Thumbnail label</h3>
-		        <p>Description</p>
-		      </Thumbnail>
-		    </Col>
-		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.5s">
-		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
-		        <h3>Thumbnail label</h3>
-		        <p>Description</p>
-		      </Thumbnail>
-		    </Col>
-		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.6s">
 		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
 		        <h3>Thumbnail label</h3>
 		        <p>Description</p>
@@ -167,10 +167,10 @@ const About= () => (
 			<Col xs={12} sm={6} className="wow fadeInDown" data-wow-delay="0.1s">
 				<Image className="img-fluid" src="/img/google.jpg"  responsive />
 			</Col>
-			<Col xs={12} sm={6} className="wow fadeInDown" data-wow-delay="0.2s">
+			<Col xs={12} sm={6} className="wow fadeInDown" data-wow-delay="0.1s">
 				<Image className="img-fluid" src="/img/amazon.jpg"  responsive />
 			</Col>
-			<Col xs={12} sm={6} className="wow fadeInDown" data-wow-delay="0.3s">
+			<Col xs={12} sm={6} className="wow fadeInDown" data-wow-delay="0.2s">
 				<Image className="img-fluid" src="/img/inyourdream.jpg"  responsive />
 			</Col>
 		</Row>
