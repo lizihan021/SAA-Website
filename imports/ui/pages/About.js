@@ -111,43 +111,43 @@ const About= () => (
 		<h2 className="page-header">Who we are:</h2>
 		<Grid>
     <Row>
-    <Col xs={6} sm={4} md={3}>
+    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.0s">
       <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
         <h3>Thumbnail label</h3>
         <p>Description</p>
       </Thumbnail>
     </Col>
-    <Col xs={6} sm={4} md={3}>
+    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.1s">
       <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
         <h3>Thumbnail label</h3>
         <p>Description</p>
       </Thumbnail>
     </Col>
-    <Col xs={6} sm={4} md={3}>
+    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.2s">
       <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
         <h3>Thumbnail label</h3>
         <p>Description</p>
       </Thumbnail>
     </Col>
-    <Col xs={6} sm={4} md={3}>
+    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.3s">
       <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
         <h3>Thumbnail label</h3>
         <p>Description</p>
       </Thumbnail>
     </Col>
-    <Col xs={6} sm={4} md={3}>
+    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.4s">
       <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
         <h3>Thumbnail label</h3>
         <p>Description</p>
       </Thumbnail>
     </Col>
-    <Col xs={6} sm={4} md={3}>
+    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.5s">
       <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
         <h3>Thumbnail label</h3>
         <p>Description</p>
       </Thumbnail>
     </Col>
-    <Col xs={6} sm={4} md={3}>
+    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.6s">
       <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
         <h3>Thumbnail label</h3>
         <p>Description</p>
