@@ -1,6 +1,6 @@
 .sectionOne {
   margin-top: -20px;
-  background: url(../img/theGroup.JPG) no-repeat center center;
+  background: url(../img/theGroup.JPG) #cccccc no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -15,9 +15,9 @@
   background-color:rgba(150,150,150,0.5);
   position: absolute;
   bottom: 0;
-  width: 100%;
   left: 0;
   right: 0;
+  width: 100.7%;
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 1%;
@@ -50,18 +50,18 @@
 }
 
 @media only screen 
-and (min-device-width : 800px) {
-  .title-one {
-    font-size: 60px;
-    line-height: 60px;
-  }
-  .lead {
-    font-size: 21px;
-  }
-  .aboutus {
-      font-size: 45px;
-      margin-bottom: 20px;
-  }
+  and (min-device-width : 800px) {
+    .title-one {
+      font-size: 60px;
+      line-height: 60px;
+    }
+    .lead {
+      font-size: 21px;
+    }
+    .aboutus {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
 }
 
 .pad-xl {

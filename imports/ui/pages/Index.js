@@ -1,13 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
 import { Grid, Row, Col, FormGroup, ControlLabel, FormControl, Button } from 'react-bootstrap';
-// const background = require("url-loader?limit=10000!./yo.png");
-
-// const indexStyle = {
-// 	width: "100%",
-// 	height: "400px",
-// 	backgroundImage: "url(" + { background } + ")"
-// }
 
 const Index = () => (
   <div className="Index">
