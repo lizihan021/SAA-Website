@@ -1,5 +1,6 @@
 .DS_Store
 settings-production.json
 npm-debug.log
+nohup.out
 
 node_modules

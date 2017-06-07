@@ -1,6 +1,21 @@
 .About {
+	.mission {
+		font-size: 20px;
+		margin-bottom: 30px;
+	}
 	.page-header {
-		margin-top: 0px;
+		margin-top: 10px;
+	}
+	.img-fluid {
+		padding: 20px 100px 50px 100px;
+		max-width: 100%;
+	}
+	Button {
+		margin-bottom: 70px;
+		p {
+			font-size: 40px;
+			padding: 20px 50px 20px 50px;
+		}
 	}
 	.timeline {
 	    list-style: none;

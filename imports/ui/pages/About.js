@@ -1,8 +1,14 @@
 import React from 'react';
-import { Grid, Row, Col, FormGroup, ControlLabel, FormControl, Button, Thumbnail} from 'react-bootstrap';
+import { Grid, Row, Col, FormGroup, ControlLabel, FormControl, Button, Thumbnail, Image} from 'react-bootstrap';
 
 const About= () => (
   <div className="About">
+  	<h2 className="page-header">Our mission:</h2>
+	<p className="mission">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+		dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+		ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+		nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
   	<h2 className="page-header">What we have done:</h2>
   	<ul className="timeline">
 		    <li className="wow fadeInDown" data-wow-delay="0.0s">
@@ -109,52 +115,68 @@ const About= () => (
 		    <li className="clearfix no-float"></li>
 		</ul>
 		<h2 className="page-header">Who we are:</h2>
-		<Grid>
-    <Row>
-    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.0s">
-      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
-        <h3>Thumbnail label</h3>
-        <p>Description</p>
-      </Thumbnail>
-    </Col>
-    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.1s">
-      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
-        <h3>Thumbnail label</h3>
-        <p>Description</p>
-      </Thumbnail>
-    </Col>
-    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.2s">
-      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
-        <h3>Thumbnail label</h3>
-        <p>Description</p>
-      </Thumbnail>
-    </Col>
-    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.3s">
-      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
-        <h3>Thumbnail label</h3>
-        <p>Description</p>
-      </Thumbnail>
-    </Col>
-    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.4s">
-      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
-        <h3>Thumbnail label</h3>
-        <p>Description</p>
-      </Thumbnail>
-    </Col>
-    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.5s">
-      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
-        <h3>Thumbnail label</h3>
-        <p>Description</p>
-      </Thumbnail>
-    </Col>
-    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.6s">
-      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
-        <h3>Thumbnail label</h3>
-        <p>Description</p>
-      </Thumbnail>
-    </Col>
-    </Row>
-  </Grid>
+		<Row>
+		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.0s">
+		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
+		        <h3>Thumbnail label</h3>
+		        <p>Description</p>
+		      </Thumbnail>
+		    </Col>
+		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.1s">
+		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
+		        <h3>Thumbnail label</h3>
+		        <p>Description</p>
+		      </Thumbnail>
+		    </Col>
+		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.2s">
+		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
+		        <h3>Thumbnail label</h3>
+		        <p>Description</p>
+		      </Thumbnail>
+		    </Col>
+		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.3s">
+		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
+		        <h3>Thumbnail label</h3>
+		        <p>Description</p>
+		      </Thumbnail>
+		    </Col>
+		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.4s">
+		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
+		        <h3>Thumbnail label</h3>
+		        <p>Description</p>
+		      </Thumbnail>
+		    </Col>
+		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.5s">
+		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
+		        <h3>Thumbnail label</h3>
+		        <p>Description</p>
+		      </Thumbnail>
+		    </Col>
+		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.6s">
+		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
+		        <h3>Thumbnail label</h3>
+		        <p>Description</p>
+		      </Thumbnail>
+		    </Col>
+		</Row>
+		<h2 className="page-header">Sponsors:</h2>
+		<Row>
+			<Col xs={12} sm={6} className="wow fadeInDown" data-wow-delay="0.0s">
+				<Image className="img-fluid" src="/img/facebook.png"  responsive />
+			</Col>
+			<Col xs={12} sm={6} className="wow fadeInDown" data-wow-delay="0.1s">
+				<Image className="img-fluid" src="/img/google.jpg"  responsive />
+			</Col>
+			<Col xs={12} sm={6} className="wow fadeInDown" data-wow-delay="0.2s">
+				<Image className="img-fluid" src="/img/amazon.jpg"  responsive />
+			</Col>
+			<Col xs={12} sm={6} className="wow fadeInDown" data-wow-delay="0.3s">
+				<Image className="img-fluid" src="/img/inyourdream.jpg"  responsive />
+			</Col>
+		</Row>
+		<Row className="text-center wow fadeInDown" data-wow-delay="0.4s">
+			<Button bsStyle="success"> <p>Sponsor us  <i className="fa fa-usd bamf"></i></p></Button>
+		</Row>
 	</div>
 );
 

@@ -19,6 +19,8 @@ const Footer = () => (
                         <a className="fa fa-globe footer-icon" href="https://www.sjtuaaum.org/" title="Website"></a>
                         <a className="fa fa-group footer-icon" href="https://maizepages.umich.edu/organization/sjtu-saa-um/about" title="Maize Page"></a>
                     </div>
+                    <br/>
+                    <br/>
                 </Col>
                 <Col sm={6} md={3}>
                     <h5>CONTACT US</h5>
