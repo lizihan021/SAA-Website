@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Grid } from 'react-bootstrap';
 import AppNavigation from '../components/AppNavigation';
+import Footer from '../components/Footer';
 
 const realChildren = children => ((children.props.route.name == "index" || 
 									children.props.route.name == "home" ) ? 
@@ -11,6 +12,7 @@ const App = ({ children }) => (
   <div>
     <AppNavigation />
       { realChildren(children) }
+    <Footer />
   </div>
 );
 
