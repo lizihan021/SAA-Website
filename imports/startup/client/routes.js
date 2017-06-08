@@ -13,6 +13,7 @@ import ViewDocument from '../../ui/pages/ViewDocument.js';
 import Index from '../../ui/pages/Index.js';
 import Login from '../../ui/pages/Login.js';
 import NotFound from '../../ui/pages/NotFound.js';
+import Newsletter from '../../ui/pages/Newsletter.js';
 import RecoverPassword from '../../ui/pages/RecoverPassword.js';
 import ResetPassword from '../../ui/pages/ResetPassword.js';
 import Resources from '../../ui/pages/Resources.js';
@@ -39,6 +40,7 @@ Meteor.startup(() => {
         <Route name="editDocument" path="/documents/:_id/edit" component={ EditDocument } onEnter={ authenticate } />
         <Route name="viewDocument" path="/documents/:_id" component={ ViewDocument } onEnter={ authenticate } />
         <Route name="login" path="/login" component={ Login } />
+        <Route name="newsletter" path="/newsletter" component={ Newsletter } />
         <Route name="recover-password" path="/recover-password" component={ RecoverPassword } />
         <Route name="reset-password" path="/reset-password/:token" component={ ResetPassword } />
         <Route name="resources" path="/resources" component={ Resources } />
