@@ -8,6 +8,7 @@ const realChildren = children => ((children.props.route.name == "index" ||
 									children.props.route.name == "home" ) ? 
 									(children) : (<Grid> {children} </Grid>))
 
+
 const App = ({ children }) => (
   <div>
     <AppNavigation />
