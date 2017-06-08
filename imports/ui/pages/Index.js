@@ -27,14 +27,14 @@ const Index = () => (
       	<div className="row">
 	 				<div className="first">
 				    <div className="col-sm-6 wow fadeInUp text-center" data-wow-delay="0.1s">
-				    	<img class="news-img pull-left img-fluid" id="fourimage" src="img/first.png" alt="Responsive image"/>
+				    	<img  id="fourimage" src="img/first.png" alt="Responsive image"/>
 					    <h3 style={{color: '#FFFFFF'}}>The first</h3>
 					    <p style={{color: '#FFFFFF'}}>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.</p>
 				    </div>
 					</div>
 					<div className="second">
 				    <div className="col-sm-6 wow fadeInUp text-center second" data-wow-delay="0.2s">
-				    	<img class="news-img pull-left img-fluid" id="fourimage" src="img/second.png" alt="Responsive image"/>
+				    	<img  id="fourimage" src="img/second.png" alt="Responsive image"/>
 					    <h3 style={{color: '#FFFFFF'}}>The second</h3>
 					    <p style={{color: '#FFFFFF'}}>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.</p>
 				    </div>
@@ -43,14 +43,14 @@ const Index = () => (
 				<div className="row">
 					<div className="third">
 				    <div className="col-sm-6  wow fadeInUp text-center third" data-wow-delay="0.3s">
-				    	<img class="news-img pull-left img-fluid" id="fourimage" src="img/fourth.png" alt="Responsive image"/>
+				    	<img  id="fourimage" src="img/fourth.png" alt="Responsive image"/>
 					    <h3 style={{color: '#FFFFFF'}}>The third</h3>
 					    <p style={{color: '#FFFFFF'}}>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.</p>
 				    </div>
 					</div>
 					<div className="fourth">
 				    <div className="col-sm-6 wow fadeInUp text-center fourth" data-wow-delay="0.3s">
-				    	<img class="news-img pull-left img-fluid" id="fourimage" src="img/third.png" alt="Responsive image"/>
+				    	<img  id="fourimage" src="img/third.png" alt="Responsive image"/>
 					    <h3 style={{color: '#FFFFFF'}}>The fourth</h3>
 					    <p style={{color: '#FFFFFF'}}>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.</p>
 				   	</div>
