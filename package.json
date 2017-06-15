@@ -66,13 +66,13 @@
     }
   },
   "dependencies": {
+    "aphrodite": "^1.2.1",
     "babel-runtime": "^6.23.0",
     "bcrypt": "^1.0.2",
     "bootstrap": "^3.3.7",
     "jquery": "^2.2.4",
     "jquery-validation": "^1.15.1",
     "meteor-node-stubs": "^0.2.6",
-    "pdfjs-dist": "^1.8.448",
     "prop-types": "^15.5.8",
     "react": "^15.5.4",
     "react-addons-pure-render-mixin": "^15.5.2",
