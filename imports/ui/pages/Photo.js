@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import { css, StyleSheet } from 'aphrodite/no-important';
 import Lightbox from 'react-images';
 
+
 class Gallery extends Component {
   constructor () {
     super();
