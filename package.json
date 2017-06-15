@@ -12,6 +12,7 @@
     "production": "meteor deploy production.meteor.com --settings settings-production.json"
   },
   "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "chimp": "^0.41.2",
     "eslint": "^3.8.1",
     "eslint-config-airbnb": "^12.0.0",
@@ -71,6 +72,7 @@
     "jquery": "^2.2.4",
     "jquery-validation": "^1.15.1",
     "meteor-node-stubs": "^0.2.6",
+    "pdfjs-dist": "^1.8.448",
     "prop-types": "^15.5.8",
     "react": "^15.5.4",
     "react-addons-pure-render-mixin": "^15.5.2",

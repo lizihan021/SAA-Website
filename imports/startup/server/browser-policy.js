@@ -3,6 +3,5 @@ import { BrowserPolicy } from 'meteor/browser-policy-common';
 BrowserPolicy.content.allowFontOrigin("data:");
 BrowserPolicy.content.allowOriginForAll( 'docs.google.com' );
 BrowserPolicy.content.allowOriginForAll( 'ajax.googleapis.com' );
-BrowserPolicy.content.allowOriginForAll( 'gallery.mailchimp.com' );
-BrowserPolicy.content.allowOriginForAll( 'cdn-images.mailchimp.com' );
 BrowserPolicy.content.allowOriginForAll( 'fonts.googleapis.com' );
+BrowserPolicy.content.allowOriginForAll( 'www.google-analytics.com' );
