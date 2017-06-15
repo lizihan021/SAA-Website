@@ -15,7 +15,7 @@ class Resources extends React.Component {
 						    </thead>
 						    <tbody>
 						      <tr>
-						        <td colSpan="3"><Link to="/home">Lorem ipsum dolor sit amet, consectetur adipiscing</Link></td>
+						        <td colSpan="3"><Link to="/resources/123">Lorem ipsum dolor sit amet, consectetur adipiscing</Link></td>
 						        <td>6/15/2017</td>
 						      </tr>
 						      <tr>

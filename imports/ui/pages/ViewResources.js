@@ -5,8 +5,7 @@ import PropTypes from 'prop-types';
 const ViewResources = () => {
   return (
     <div className="ViewResources">
-      <p> {//this.props.params._id
-      } </p>
+      <p>  </p>
     </div>
   );
 };
