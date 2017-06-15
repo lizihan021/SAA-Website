@@ -5,3 +5,4 @@ BrowserPolicy.content.allowOriginForAll( 'docs.google.com' );
 BrowserPolicy.content.allowOriginForAll( 'ajax.googleapis.com' );
 BrowserPolicy.content.allowOriginForAll( 'fonts.googleapis.com' );
 BrowserPolicy.content.allowOriginForAll( 'www.google-analytics.com' );
+BrowserPolicy.content.allowOriginForAll( 'fonts.gstatic.com' );
