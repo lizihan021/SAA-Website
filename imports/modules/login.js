@@ -3,7 +3,8 @@
 import { browserHistory } from 'react-router';
 import { Meteor } from 'meteor/meteor';
 import { Bert } from 'meteor/themeteorchef:bert';
-import './validation.js';
+import $ from 'jquery';
+import 'jquery-validation';
 
 let component;
 
