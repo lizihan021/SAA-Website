@@ -128,13 +128,7 @@ const About= () => (
 		        <p>Description</p>
 		      </Thumbnail>
 		    </Col>
-		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.2s">
-		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
-		        <h3>Thumbnail label</h3>
-		        <p>Description</p>
-		      </Thumbnail>
-		    </Col>
-		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.3s">
+		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.1s">
 		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
 		        <h3>Thumbnail label</h3>
 		        <p>Description</p>
@@ -146,13 +140,19 @@ const About= () => (
 		        <p>Description</p>
 		      </Thumbnail>
 		    </Col>
-		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.3s">
+		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.0s">
 		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
 		        <h3>Thumbnail label</h3>
 		        <p>Description</p>
 		      </Thumbnail>
 		    </Col>
-		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.4s">
+		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.1s">
+		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
+		        <h3>Thumbnail label</h3>
+		        <p>Description</p>
+		      </Thumbnail>
+		    </Col>
+		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.2s">
 		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
 		        <h3>Thumbnail label</h3>
 		        <p>Description</p>
