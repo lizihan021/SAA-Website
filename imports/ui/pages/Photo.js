@@ -76,13 +76,13 @@ class Gallery extends Component {
     return (
       <div className={css(classes.gallery)}>
         <div className={css(description.des)}>
-            <div className="text-center row">
+            <div className="text-center row" style={{margin:"30px"}}>
             <div className="col-sm-8 col-sm-offset-2">
-            <hr />
+              <hr/>
             </div>
             </div>
-            <div className="row text-center">
-                <div className="col-sm-6 text-center wow fadeInUp">
+            <div className="row text-center" style={{"font-family": "'Josefin Sans', sans-serif"}}>
+                <div className="col-sm-4 col-sm-offset-2 text-center wow fadeInUp">
                       <a
                         href={images[0].src}
                         key={0}
@@ -91,30 +91,32 @@ class Gallery extends Component {
                       <img src={images[0].thumbnail} className={css(classes.source)} />
                       </a>
                 </div>
-                <div className="col-sm-6 text-left">
-                    <h1>
+                <div className="col-sm-4 text-left">
+                    <p className="titletext">
                       The spectacle before us was indeed sublime.
-                    </h1>
-                    <p>
-                      This is the Michigan China Forum
                     </p>
+                    <h3 className="pasText">
+                      Apparently we had reached a great height in the atmosphere, 
+                      for the sky was a dead black, and the stars had ceased to twinkle. 
+                    </h3>
                 </div>
             </div> 
-            <div className="text-center row">
+            <div className="text-center row" style={{margin:"30px"}}>
             <div className="col-sm-8 col-sm-offset-2">
             <hr />
             </div>
             </div>
             <div className="row text-center">
-                <div className="col-sm-6">
-                    <h1>
+                <div className="col-sm-4 col-sm-offset-2 text-left">
+                    <p className="titletext">
                       The spectacle before us was indeed sublime.
-                    </h1>
-                    <p>
-                      This is the Michigan China Forum
                     </p>
+                    <h3 className="pasText">
+                      Apparently we had reached a great height in the atmosphere, 
+                      for the sky was a dead black, and the stars had ceased to twinkle. 
+                    </h3>
                 </div>
-                <div className="col-sm-6 text-center wow fadeInUp">
+               <div className="col-sm-4 text-center wow fadeInUp">
                       <a
                         href={images[1].src}
                         key={1}
@@ -125,13 +127,13 @@ class Gallery extends Component {
                 </div>
                 
             </div>
-            <div className="text-center row">
+            <div className="text-center row" style={{margin:"30px"}}>
             <div className="col-sm-8 col-sm-offset-2">
             <hr />
             </div>
             </div>
             <div className="row text-center">
-                <div className="col-sm-6 text-center wow fadeInUp">
+                <div className="col-sm-4 col-sm-offset-2 text-center wow fadeInUp">
                   <a
                         href={images[2].src}
                         key={2}
@@ -140,16 +142,22 @@ class Gallery extends Component {
                       <img src={images[2].thumbnail} className={css(classes.source)} />
                       </a>
                 </div>
-                <div className="col-sm-6">
-                    <h1>
+                <div className="col-sm-4 text-left">
+                    <p className="titletext">
                       The spectacle before us was indeed sublime.
-                    </h1>
-                    <p>
-                      This is the Michigan China Forum
                     </p>
+                    <h3 className="pasText">
+                      Apparently we had reached a great height in the atmosphere, 
+                      for the sky was a dead black, and the stars had ceased to twinkle. 
+                    </h3>
                 </div>
             </div>
           </div>
+          <div className="text-center row" style={{margin:"30px"}}>
+            <div className="col-sm-8 col-sm-offset-2">
+            <hr />
+            </div>
+            </div>
         
       </div>
     );
@@ -199,10 +207,12 @@ const description = StyleSheet.create({
 
 
 
+
 const classes = StyleSheet.create({
   gallery: {
     marginRight: -gutter.small,
     overflow: 'hidden',
+    fontWeight: "100",
 
     '@media (min-width: 500px)': {
       marginRight: -gutter.large,

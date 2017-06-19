@@ -23,21 +23,35 @@
   margin-bottom: 1%;
 }
 
+.titletext {
+  font-size: 35px;
+  font-weight: 100;
+  font-family: 'Raleway', sans-serif;
+}
+
+.pasText{
+  font-size:20px;
+  font-weight: 100;
+  font-family: 'Raleway', sans-serif;
+}
+
 .title-one {
   letter-spacing: -1px;
   color: #ffffff;
   font-weight: 700;
 }
 
-.thirdrow{
+.thirdrow {
   margin-top:30px;
+  font-weight:100 !important;
 }
 
 .lead {
   line-height: 26px;
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 300;
 }
+
 
 @media only screen 
   and (max-device-width : 800px) {
@@ -140,6 +154,7 @@ textarea { resize: vertical; }
 body {
   overflow-y: scroll;
 }
+
 
 #containerp:before,
 #containerp:after {

@@ -10,7 +10,9 @@ const IMAGES = [
 
 ];
 
-
+var styles = {
+	fontWeight:'light'
+};
 
 const oriimage = function(str){
 	return str + '.jpg'
@@ -76,7 +78,7 @@ const Index = () => (
 				</div>
 			</div>
 		</section>
-        <div className="thirdrow">
+        <div className="thirdrow" style={styles}>
 			<Gallery images={IMAGES.map(({ caption, id, orientation, useForDemo }) => ({
 				src: oriimage(id),
 				thumbnail: thum(id),
