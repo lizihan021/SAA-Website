@@ -6,3 +6,7 @@ BrowserPolicy.content.allowOriginForAll( 'ajax.googleapis.com' );
 BrowserPolicy.content.allowOriginForAll( 'fonts.googleapis.com' );
 BrowserPolicy.content.allowOriginForAll( 'www.google-analytics.com' );
 BrowserPolicy.content.allowOriginForAll( 'fonts.gstatic.com' );
+BrowserPolicy.content.allowOriginForAll( 'apis.google.com' );
+BrowserPolicy.content.allowOriginForAll( 'content.googleapis.com' );
+BrowserPolicy.content.allowOriginForAll( 'accounts.google.com' );
+BrowserPolicy.content.allowOriginForAll( 'www.gstatic.com' );
