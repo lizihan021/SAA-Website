@@ -15,10 +15,10 @@ In addition, SJTU-SAA-UM also serves as a community builder by connecting cross-
 		        </div>
 		        <div className="timeline-panel">
 		            <div className="timeline-heading">
-		                <h4>JI 10th Anniversary Student & Alumni Development Conference @ UM</h4>
+		                <h4>JI 10th Anniversary Student & Alumni Development Conference</h4>
 		            </div>
 		            <div className="timeline-body">
-		                <Thumbnail src="/img/anniversary.png"/>
+		                <Image className="event-image" src="/img/anniversary.png"/>
 		            </div>
 		            <div className="timeline-footer">
 		                <p className="text-right">Apr-2016</p>
@@ -35,7 +35,7 @@ In addition, SJTU-SAA-UM also serves as a community builder by connecting cross-
 		                <h4>JI Class of 2016 Commencement Ceremony</h4>
 		            </div>
 		            <div className="timeline-body">
-		            	<Thumbnail src="/img/commencement.png"/>
+		            	<Image className="event-image" src="/img/commencement.png"/>
 		            </div>
 		            <div className="timeline-footer">
 		                <p className="text-right">May-2016</p>
@@ -52,7 +52,7 @@ In addition, SJTU-SAA-UM also serves as a community builder by connecting cross-
 		                <h4>New SJTU Students Welcome Week + Reception</h4>
 		            </div>
 		            <div className="timeline-body">
-		                <Thumbnail src="/img/welcome.png"/>
+		                <Image className="event-image" src="/img/welcome.png"/>
 		            </div>
 		            <div className="timeline-footer">
 		                <p className="text-right">Aug-2016</p>
@@ -69,8 +69,8 @@ In addition, SJTU-SAA-UM also serves as a community builder by connecting cross-
 		                <h4>Career Workshops + Alumni Gatherings</h4>
 		            </div>
 		            <div className="timeline-body">
-		                <Thumbnail src="/img/career1.png"/>
-		                <Thumbnail src="/img/career2.png"/>
+		                <Image className="event-image" src="/img/career1.png"/>
+		                <Image className="event-image" src="/img/career2.png"/>
 		            </div>
 		            <div className="timeline-footer">
 		                <p className="text-right">Sept-2016 - Oct-2016</p>
@@ -87,7 +87,7 @@ In addition, SJTU-SAA-UM also serves as a community builder by connecting cross-
 		                <h4>Thanksgiving Culture Immersion (Dumpling Feast)</h4>
 		            </div>
 		            <div className="timeline-body">
-		                <Thumbnail src="/img/dumpling.png"/>
+		                <Image className="event-image" src="/img/dumpling.png"/>
 		            </div>
 		            <div className="timeline-footer">
 		                <p className="text-right">Nov-2016</p>
@@ -104,7 +104,7 @@ In addition, SJTU-SAA-UM also serves as a community builder by connecting cross-
 		                <h4>Coherix Company Visit</h4>
 		            </div>
 		            <div className="timeline-body">
-		            	<Thumbnail src="/img/visit.png"/>
+		            	<Image className="event-image" src="/img/visit.png"/>
 		            </div>
 		            <div className="timeline-footer primary">
 		                <p className="text-right">Dec-2016</p>
@@ -121,8 +121,8 @@ In addition, SJTU-SAA-UM also serves as a community builder by connecting cross-
 		                <h4>1st Michigan China Forum co-hosted w/ CSSA and CEN</h4>
 		            </div>
 		            <div className="timeline-body">
-		            	<Thumbnail src="/img/forum1.png"/>
-		            	<Thumbnail src="/img/forum2.png"/>
+		            	<Image className="event-image" src="/img/forum1.png"/>
+		            	<Image className="event-image" src="/img/forum2.png"/>
 		            </div>
 		            <div className="timeline-footer primary">
 		                <p className="text-right">Mar-2017</p>
@@ -139,7 +139,7 @@ In addition, SJTU-SAA-UM also serves as a community builder by connecting cross-
 		                <h4>JI Class of 2017 Commencement Ceremony</h4>
 		            </div>
 		            <div className="timeline-body">
-		            	<Thumbnail src="/img/inyourdream.jpg"/>
+		            	<Image className="event-image" src="/img/inyourdream.jpg"/>
 		            </div>
 		            <div className="timeline-footer primary">
 		                <p className="text-right">May-2017</p>

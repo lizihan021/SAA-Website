@@ -1,4 +1,8 @@
 .About {
+	.event-image {
+		max-width: 100%;
+		margin-top: 10px;
+	}
 	.mission {
 		font-size: 20px;
 		margin-bottom: 30px;
@@ -122,6 +126,7 @@
 	    color: inherit;
 	}
 	.timeline-heading h4 {
+		margin-top: 17px;
 	    font-weight: 400;
 	    padding: 0 15px;
 	    color: #4679bd;
