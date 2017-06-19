@@ -93,7 +93,7 @@ class Gallery extends Component {
                 </div>
                 <div className="col-sm-4 text-left">
                     <p className="titletext">
-                      The spectacle before us was indeed sublime.
+                      The spectacle before us was indeed.
                     </p>
                     <h3 className="pasText">
                       Apparently we had reached a great height in the atmosphere, 
@@ -109,11 +109,11 @@ class Gallery extends Component {
             <div className="row text-center">
                 <div className="col-sm-4 col-sm-offset-2 text-left">
                     <p className="titletext">
-                      The spectacle before us was indeed sublime.
+                      The idea for creating this typeface.
                     </p>
                     <h3 className="pasText">
-                      Apparently we had reached a great height in the atmosphere, 
-                      for the sky was a dead black, and the stars had ceased to twinkle. 
+                      My idea was to draw something with good style, that reflects Swedish design and their passion for a good lifestyle,
+                      .
                     </h3>
                 </div>
                <div className="col-sm-4 text-center wow fadeInUp">
@@ -144,11 +144,12 @@ class Gallery extends Component {
                 </div>
                 <div className="col-sm-4 text-left">
                     <p className="titletext">
-                      The spectacle before us was indeed sublime.
+                      Newut' site again and noticed that I had.
+
                     </p>
                     <h3 className="pasText">
-                      Apparently we had reached a great height in the atmosphere, 
-                      for the sky was a dead black, and the stars had ceased to twinkle. 
+                      The previous version of Josefin Sans included Extended Latin characters in the Latin subset. 
+                      If you are experiencing problems.
                     </h3>
                 </div>
             </div>
