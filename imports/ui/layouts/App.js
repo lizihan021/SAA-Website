@@ -5,7 +5,8 @@ import AppNavigation from '../components/AppNavigation';
 import Footer from '../components/Footer';
 
 const realChildren = children => ((children.props.route.name == "index" || 
-									children.props.route.name == "home" ) ? 
+									children.props.route.name == "home" || 
+									children.props.route.name == "newsletter") ? 
 									(children) : (<Grid> {children} </Grid>))
 
 const App = ({ children }) => (

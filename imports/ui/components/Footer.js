@@ -29,7 +29,11 @@ const Footer = () => (
                 </Col>
                 <Col sm={6} md={3}>
                     <h5>ANALISTICS</h5>
-                    You are the first visitor.
+                    <div id="embed-api-auth-container"></div>
+                    <div id="chart-1-container"></div>
+                    <div id="chart-2-container"></div>
+                    <div id="view-selector-1-container"></div>
+                    <div id="view-selector-2-container"></div>
                 </Col>
             </Row>
             <div className="copyright">

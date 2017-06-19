@@ -4,10 +4,8 @@ import { Grid, Row, Col, FormGroup, ControlLabel, FormControl, Button, Thumbnail
 const About= () => (
   <div className="About">
   	<h2 className="page-header">Our mission:</h2>
-	<p className="mission">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-		dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-		ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-		nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	<p className="mission">As the official student organization recognized by both universities, SJTU Student & Alumni Association at UM (SJTU-SAA-UM) is completely run by SJTU students and is aimed at serving the SJTU students and alumni at UM. We work with both universities as well as industry partners to provide professional development resources, culture immersion programs, and networking opportunities. Our goal is to help the students and alumni become successful in their future personal development.
+In addition, SJTU-SAA-UM also serves as a community builder by connecting cross-culture and cross-industry talents. We work closely with the alumni associations from both universities. President and advisors of SJTU-SAA-UM also serve as the board of directors for the SJTU Alumni Association in Greater Michigan (SJTUAAMI).
 	</p>
   	<h2 className="page-header">What we have done:</h2>
   	<ul className="timeline">
@@ -17,13 +15,13 @@ const About= () => (
 		        </div>
 		        <div className="timeline-panel">
 		            <div className="timeline-heading">
-		                <h4>Timeline Event</h4>
+		                <h4>JI 10th Anniversary Student & Alumni Development Conference</h4>
 		            </div>
 		            <div className="timeline-body">
-		                <p>Invitamus me testatur sed quod non dum animae tuae lacrimis ut libertatem deum rogus aegritudinis causet. Dicens hoc contra serpentibus isto.</p>
+		                <Image className="event-image" src="/img/anniversary.png"/>
 		            </div>
 		            <div className="timeline-footer">
-		                <p className="text-right">Feb-21-2014</p>
+		                <p className="text-right">Apr-2016</p>
 		            </div>
 		        </div>
 		    </li>
@@ -34,13 +32,13 @@ const About= () => (
 		        </div>
 		        <div className="timeline-panel">
 		            <div className="timeline-heading">
-		                <h4>Timeline Event</h4>
+		                <h4>JI Class of 2016 Commencement Ceremony</h4>
 		            </div>
 		            <div className="timeline-body">
-		                <p>Stranguillione in deinde cepit roseo commendavit patris super color est se sed. Virginis plus plorantes abscederem assignato ipsum ait regem Ardalio nos filiae Hellenicus mihi cum. Theophilo litore in lucem in modo invenit quasi nomen magni ergo est se est Apollonius, habet clementiae venit ad nomine sed dominum depressit filia navem.</p>
+		            	<Image className="event-image" src="/img/commencement.png"/>
 		            </div>
 		            <div className="timeline-footer">
-		                <p className="text-right">Feb-23-2014</p>
+		                <p className="text-right">May-2016</p>
 		            </div>
 		        </div>
 		    </li>
@@ -51,13 +49,13 @@ const About= () => (
 		        </div>
 		        <div className="timeline-panel">
 		            <div className="timeline-heading">
-		                <h4>Timeline Event</h4>
+		                <h4>New SJTU Students Welcome Week + Reception</h4>
 		            </div>
 		            <div className="timeline-body">
-		                <p>Advenientibus aliorum eam ad per te sed. Facere debetur aut veneris accedens. Advenientibus aliorum eam ad per te sed. Facere debetur aut veneris accedens. Advenientibus aliorum eam ad per te sed. Facere debetur aut veneris accedens.</p>
+		                <Image className="event-image" src="/img/welcome.png"/>
 		            </div>
 		            <div className="timeline-footer">
-		                <p className="text-right">Feb-23-2014</p>
+		                <p className="text-right">Aug-2016</p>
 		            </div>
 		        </div>
 		    </li>
@@ -68,13 +66,14 @@ const About= () => (
 		        </div>
 		        <div className="timeline-panel">
 		            <div className="timeline-heading">
-		                <h4>Timeline Event</h4>
+		                <h4>Career Workshops + Alumni Gatherings</h4>
 		            </div>
 		            <div className="timeline-body">
-		                <p>Volvitur ingreditur id ait mea vero cum autem quod ait Cumque ego illum vero cum unde beata. Commendavi si non dum est in. Dionysiadem tuos ratio puella ut casus, tunc lacrimas effunditis magister cives Tharsis. Puellae addita verbaque capellam sanctissima quid, apollinem existimas filiam rex cum autem quod tamen adnuente rediens eam est se in. Peracta licet ad nomine Maria non ait in modo compungi mulierem volutpat.</p>
+		                <Image className="event-image" src="/img/career1.png"/>
+		                <Image className="event-image" src="/img/career2.png"/>
 		            </div>
 		            <div className="timeline-footer">
-		                <p className="text-right">Feb-27-2014</p>
+		                <p className="text-right">Sept-2016 - Oct-2016</p>
 		            </div>
 		        </div>
 		    </li>
@@ -85,13 +84,13 @@ const About= () => (
 		        </div>
 		        <div className="timeline-panel">
 		            <div className="timeline-heading">
-		                <h4>Timeline Event</h4>
+		                <h4>Thanksgiving Culture Immersion (Dumpling Feast)</h4>
 		            </div>
 		            <div className="timeline-body">
-		                <p>Adfertur guttae sapientiae ducitur est Apollonius ut a a his domino Lycoridem in lucem. Theophile atque bona dei cenam veniebant est cum. Iusto opes mihi Tyrum in modo compungi mulierem ubi augue eiusdem ordo quos vero diam omni catervis famulorum. Bene dictis ut diem finito servis unde.</p>
+		                <Image className="event-image" src="/img/dumpling.png"/>
 		            </div>
 		            <div className="timeline-footer">
-		                <p className="text-right">Mar-01-2014</p>
+		                <p className="text-right">Nov-2016</p>
 		            </div>
 		        </div>
 		    </li>
@@ -102,13 +101,48 @@ const About= () => (
 		        </div>
 		        <div className="timeline-panel">
 		            <div className="timeline-heading">
-		                <h4>Timeline Event</h4>
+		                <h4>Coherix Company Visit</h4>
 		            </div>
 		            <div className="timeline-body">
-		                <p>Crede respiciens loco dedit beneficio ad suis alteri si puella eius in. Acceptis codicello lenonem in deinde plectrum anni ipsa quod eam est Apollonius.</p>
+		            	<Image className="event-image" src="/img/visit.png"/>
 		            </div>
 		            <div className="timeline-footer primary">
-		                <p className="text-right">Mar-02-2014</p>
+		                <p className="text-right">Dec-2016</p>
+		            </div>
+		        </div>
+		    </li>
+
+		    <li  className="wow fadeInDown"  data-wow-delay="0.5">
+		        <div className="timeline-badge">
+		            <a><i className="fa fa-circle invert" id=""></i></a>
+		        </div>
+		        <div className="timeline-panel">
+		            <div className="timeline-heading">
+		                <h4>1st Michigan China Forum co-hosted w/ CSSA and CEN</h4>
+		            </div>
+		            <div className="timeline-body">
+		            	<Image className="event-image" src="/img/forum1.png"/>
+		            	<Image className="event-image" src="/img/forum2.png"/>
+		            </div>
+		            <div className="timeline-footer primary">
+		                <p className="text-right">Mar-2017</p>
+		            </div>
+		        </div>
+		    </li>
+
+		    <li  className="timeline-inverted wow fadeInDown"  data-wow-delay="0.5">
+		        <div className="timeline-badge">
+		            <a><i className="fa fa-circle invert" id=""></i></a>
+		        </div>
+		        <div className="timeline-panel">
+		            <div className="timeline-heading">
+		                <h4>JI Class of 2017 Commencement Ceremony</h4>
+		            </div>
+		            <div className="timeline-body">
+		            	<Image className="event-image" src="/img/inyourdream.jpg"/>
+		            </div>
+		            <div className="timeline-footer primary">
+		                <p className="text-right">May-2017</p>
 		            </div>
 		        </div>
 		    </li>
@@ -117,65 +151,65 @@ const About= () => (
 		<h2 className="page-header">Who we are:</h2>
 		<Row>
 		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.0s">
-		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
-		        <h3>Thumbnail label</h3>
-		        <p>Description</p>
+		      <Thumbnail src="/img/zeyu.png" alt="242x200">
+		        <h3>Zeyu Zhang</h3>
+		        <p>Co-president<br/></p>
+		      </Thumbnail>
+		    </Col>
+		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.1s">
+		      <Thumbnail src="/img/tianjun.png" alt="242x200">
+		        <h3>Tianjun Zhang</h3>
+		        <p>Co-president<br/></p>
+		      </Thumbnail>
+		    </Col>
+		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.1s">
+		      <Thumbnail src="/img/xiyu.png" alt="242x200">
+		        <h3>Xiyu Zhao</h3>
+		        <p>Secretary General<br/></p>
+		      </Thumbnail>
+		    </Col>
+		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.2s">
+		      <Thumbnail src="/img/jiaming.png" alt="242x200">
+		        <h3>Jiaming Yang</h3>
+		        <p>Vice President for Culture Immersion & Professional Development</p>
+		      </Thumbnail>
+		    </Col>
+		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.0s">
+		      <Thumbnail src="/img/wen.png" alt="242x200">
+		        <h3>Wen He</h3>
+		        <p>Vice President for Alumni Relations<br/></p>
 		      </Thumbnail>
 		    </Col>
 		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.1s">
 		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
-		        <h3>Thumbnail label</h3>
-		        <p>Description</p>
+		        <h3>Zihan Li</h3>
+		        <p>Vice President for Brand & Digital Media</p>
 		      </Thumbnail>
 		    </Col>
 		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.2s">
-		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
-		        <h3>Thumbnail label</h3>
-		        <p>Description</p>
-		      </Thumbnail>
-		    </Col>
-		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.3s">
-		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
-		        <h3>Thumbnail label</h3>
-		        <p>Description</p>
-		      </Thumbnail>
-		    </Col>
-		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.2s">
-		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
-		        <h3>Thumbnail label</h3>
-		        <p>Description</p>
-		      </Thumbnail>
-		    </Col>
-		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.3s">
-		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
-		        <h3>Thumbnail label</h3>
-		        <p>Description</p>
-		      </Thumbnail>
-		    </Col>
-		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.4s">
-		      <Thumbnail src="/img/avatar-zihan.png" alt="242x200">
-		        <h3>Thumbnail label</h3>
-		        <p>Description</p>
+		      <Thumbnail src="/img/jiayan.png" alt="242x200">
+		        <h3>Jiayan Chen</h3>
+		        <p>Vice President for Development & Outreach</p>
 		      </Thumbnail>
 		    </Col>
 		</Row>
 		<h2 className="page-header">Sponsors:</h2>
 		<Row>
 			<Col xs={12} sm={6} className="wow fadeInDown" data-wow-delay="0.0s">
-				<Image className="img-fluid" src="/img/facebook.png"  responsive />
-			</Col>
-			<Col xs={12} sm={6} className="wow fadeInDown" data-wow-delay="0.1s">
 				<Image className="img-fluid" src="/img/google.jpg"  responsive />
 			</Col>
 			<Col xs={12} sm={6} className="wow fadeInDown" data-wow-delay="0.1s">
-				<Image className="img-fluid" src="/img/amazon.jpg"  responsive />
+				<Image className="img-fluid" src="/img/yikyak-logo.jpg"  responsive />
+			</Col>
+			<Col xs={12} sm={6} className="wow fadeInDown" data-wow-delay="0.1s">
+				<Image className="img-fluid" src="/img/coherix-logo.jpeg"  responsive />
 			</Col>
 			<Col xs={12} sm={6} className="wow fadeInDown" data-wow-delay="0.2s">
 				<Image className="img-fluid" src="/img/inyourdream.jpg"  responsive />
 			</Col>
 		</Row>
 		<Row className="text-center wow fadeInDown" data-wow-delay="0.4s">
-			<Button bsStyle="success"> <p>Sponsor us  <i className="fa fa-usd bamf"></i></p></Button>
+			<Button bsStyle="success" onClick={() => alert('大兄弟你活在梦里=_=')}> <p>Sponsor us  <i className="fa fa-usd bamf"></i></p></Button>
 		</Row>
 	</div>
 );
