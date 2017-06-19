@@ -1,6 +1,6 @@
 .sectionOne {
   margin-top: -20px;
-  background: url(../img/theGroup.JPG) #cccccc no-repeat center center;
+  background: url(../img/theGroup.jpg) #cccccc no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -27,6 +27,10 @@
   letter-spacing: -1px;
   color: #ffffff;
   font-weight: 700;
+}
+
+.thirdrow{
+  margin-top:30px;
 }
 
 .lead {
@@ -130,3 +134,36 @@ textarea { resize: vertical; }
 .conversation {
   margin-top: 45px;
 }
+
+/*style for the photo*/
+
+body {
+  overflow-y: scroll;
+}
+
+#containerp:before,
+#containerp:after {
+  content: "";
+  display: table;
+}
+#containerp:after {
+  clear: both;
+}
+#photos {
+  float: left;
+  margin-bottom: 15px;
+}
+#photos img {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: bottom;
+}
+.first-item {
+  clear: both;
+}
+.last-row, .last-row ~ .item {
+  margin-bottom: 0;
+}
+
+/*style for the photo end */
+

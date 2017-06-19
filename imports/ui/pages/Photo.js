@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import { css, StyleSheet } from 'aphrodite/no-important';
 import Lightbox from 'react-images';
 
-
+var itermclass = "item";
 class Gallery extends Component {
   constructor () {
     super();
@@ -59,22 +59,98 @@ class Gallery extends Component {
 
     if (!images) return;
 
-    const gallery = images.filter(i => i.useForDemo).map((obj, i) => {
-      return (
-        <a
-          href={obj.src}
-          className={css(classes.thumbnail, classes[obj.orientation])}
-          key={i}
-          onClick={(e) => this.openLightbox(i, e)}
-        >
-          <img src={obj.thumbnail} className={css(classes.source)} />
-        </a>
-      );
-    });
+    // const gallery = 
+    // // images.filter(i => i.useForDemo).map((obj, i) => {
+    // //   return (
+    // //     <a
+    // //       href={obj.src}
+    // //       className={css(classes.thumbnail, classes[obj.orientation])}
+    // //       key={i}
+    // //       onClick={(e) => this.openLightbox(i, e)}
+    // //     >
+    // //     <img src={obj.thumbnail} className={css(classes.source)} />
+    // //     </a>
+    // //   );
+    // // });
 
     return (
       <div className={css(classes.gallery)}>
-        {gallery}
+        <div className={css(description.des)}>
+            <div className="text-center row">
+            <div className="col-sm-8 col-sm-offset-2">
+            <hr />
+            </div>
+            </div>
+            <div className="row text-center">
+                <div className="col-sm-6 text-center wow fadeInUp">
+                      <a
+                        href={images[0].src}
+                        key={0}
+                        onClick={(e) => this.openLightbox(0, e)}
+                      >
+                      <img src={images[0].thumbnail} className={css(classes.source)} />
+                      </a>
+                </div>
+                <div className="col-sm-6 text-left">
+                    <h1>
+                      The spectacle before us was indeed sublime.
+                    </h1>
+                    <p>
+                      This is the Michigan China Forum
+                    </p>
+                </div>
+            </div> 
+            <div className="text-center row">
+            <div className="col-sm-8 col-sm-offset-2">
+            <hr />
+            </div>
+            </div>
+            <div className="row text-center">
+                <div className="col-sm-6">
+                    <h1>
+                      The spectacle before us was indeed sublime.
+                    </h1>
+                    <p>
+                      This is the Michigan China Forum
+                    </p>
+                </div>
+                <div className="col-sm-6 text-center wow fadeInUp">
+                      <a
+                        href={images[1].src}
+                        key={1}
+                        onClick={(e) => this.openLightbox(1, e)}
+                      >
+                      <img src={images[1].thumbnail} className={css(classes.source)} />
+                      </a>
+                </div>
+                
+            </div>
+            <div className="text-center row">
+            <div className="col-sm-8 col-sm-offset-2">
+            <hr />
+            </div>
+            </div>
+            <div className="row text-center">
+                <div className="col-sm-6 text-center wow fadeInUp">
+                  <a
+                        href={images[2].src}
+                        key={2}
+                        onClick={(e) => this.openLightbox(2, e)}
+                      >
+                      <img src={images[2].thumbnail} className={css(classes.source)} />
+                      </a>
+                </div>
+                <div className="col-sm-6">
+                    <h1>
+                      The spectacle before us was indeed sublime.
+                    </h1>
+                    <p>
+                      This is the Michigan China Forum
+                    </p>
+                </div>
+            </div>
+          </div>
+        
       </div>
     );
   }
@@ -113,6 +189,16 @@ const gutter = {
   small: 2,
   large: 4,
 };
+
+const description = StyleSheet.create({
+    des:{
+      "font-family": 'Open Sans',
+      "margin": "30px",
+    },
+});
+
+
+
 const classes = StyleSheet.create({
   gallery: {
     marginRight: -gutter.small,
@@ -127,7 +213,6 @@ const classes = StyleSheet.create({
   thumbnail: {
     boxSizing: 'border-box',
     display: 'block',
-    float: 'left',
     lineHeight: 0,
     paddingRight: gutter.small,
     paddingBottom: gutter.small,

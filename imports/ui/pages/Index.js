@@ -4,12 +4,12 @@ import { Grid, Row, Col, FormGroup, ControlLabel, FormControl, Button } from 're
 import Gallery from './Photo.js';
 
 const IMAGES = [
-	{id: 'img/theGroup',caption:"our group", orientation: 'square', useForDemo: true },
-	{id: 'img/be-the-first-bg',caption:"our group", orientation: 'landscape', useForDemo: true }, 
-	{id: 'img/ME',caption:"our group", orientation: 'landscape', useForDemo: true }, 
-	{id: 'img/newarrival',caption:"our group", orientation: 'landscape', useForDemo: true }, 
-	{id: 'img/culture',caption:"our group", orientation: 'landscape', useForDemo: true },
+	{id: 'img/theGroup',caption:"Our group", orientation: 'square', useForDemo: true },
+	{id: 'img/last',caption:"Michigan China Forum", orientation: 'square', useForDemo: true },
+	{id: 'img/graduate',caption:"Graduation ceremony", orientation: 'square', useForDemo: true },
+
 ];
+
 
 
 const oriimage = function(str){
@@ -76,22 +76,15 @@ const Index = () => (
 				</div>
 			</div>
 		</section>
-        <div className="container">
-						<div className="row text-center intro">
-							<h1>We are the organization blablabla</h1>
-						</div>
-						<div className="row">
-						<div className="col-md-12 text-center">
-							<Gallery images={IMAGES.map(({ caption, id, orientation, useForDemo }) => ({
-								src: oriimage(id),
-								thumbnail: thum(id),
-								caption,
-								orientation,
-								useForDemo,
-							}))} />
-						</div>
-						</div>
-					</div>
+        <div className="thirdrow">
+			<Gallery images={IMAGES.map(({ caption, id, orientation, useForDemo }) => ({
+				src: oriimage(id),
+				thumbnail: thum(id),
+				caption,
+				orientation,
+				useForDemo,
+			}))} />
+		</div>
 	</div>
 );
 
