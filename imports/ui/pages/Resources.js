@@ -19,6 +19,10 @@ const Resources = ({ children }) => (
 			    </thead>
 			    <tbody>
 			      <tr>
+			        <td colSpan="3"><Link to="/resources/HE_Wen_AA_challenge">Lorem ipsum dolor sit amet, consectetur adipiscing</Link></td>
+			        <td>6/15/2017</td>
+			      </tr>
+			      <tr>
 			        <td colSpan="3"><Link to="/resources/Zihan-Li-Report">Lorem ipsum dolor sit amet, consectetur adipiscing</Link></td>
 			        <td>6/15/2017</td>
 			      </tr>
