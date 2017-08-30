@@ -17,13 +17,16 @@ const PublicNavigation = () => (
       <LinkContainer to="/newsletter">
         <NavItem eventKey={ 4 } href="/newsletter">News Letter</NavItem>
       </LinkContainer>
+      <LinkContainer to="/faq">
+        <NavItem eventKey={ 5 } href="/faq">FAQ</NavItem>
+      </LinkContainer>
     </Nav>
 	  <Nav pullRight>
 	    <LinkContainer to="/signup">
-	      <NavItem eventKey={ 5 } href="/signup">Sign Up</NavItem>
+	      <NavItem eventKey={ 6 } href="/signup">Sign Up</NavItem>
 	    </LinkContainer>
 	    <LinkContainer to="/login">
-	      <NavItem eventKey={ 6 } href="/login">Log In</NavItem>
+	      <NavItem eventKey={ 7 } href="/login">Log In</NavItem>
 	    </LinkContainer>
 	  </Nav>
 	</div>

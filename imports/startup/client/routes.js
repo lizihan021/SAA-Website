@@ -9,6 +9,7 @@ import About from '../../ui/pages/About.js';
 import Documents from '../../ui/pages/Documents.js';
 import NewDocument from '../../ui/pages/NewDocument.js';
 import EditDocument from '../../ui/pages/EditDocument.js';
+import FAQ from '../../ui/pages/FAQ.js';
 import ViewDocument from '../../ui/pages/ViewDocument.js';
 import Index from '../../ui/pages/Index.js';
 import Login from '../../ui/pages/Login.js';
@@ -40,6 +41,7 @@ Meteor.startup(() => {
         <Route name="newDocument" path="/documents/new" component={ NewDocument } onEnter={ authenticate } />
         <Route name="editDocument" path="/documents/:_id/edit" component={ EditDocument } onEnter={ authenticate } />
         <Route name="viewDocument" path="/documents/:_id" component={ ViewDocument } onEnter={ authenticate } />
+        <Route name="FAQ" path="/faq" component={ FAQ } />
         <Route name="login" path="/login" component={ Login } />
         <Route name="newsletter" path="/newsletter" component={ Newsletter } />
         <Route name="recover-password" path="/recover-password" component={ RecoverPassword } />
