@@ -93,11 +93,12 @@ class Gallery extends Component {
                 </div>
                 <div className="col-sm-4 text-left">
                     <p className="titletext">
-                      The spectacle before us was indeed.
+                      Support overseas SJTU students to succeed.
                     </p>
                     <h3 className="pasText">
-                      Apparently we had reached a great height in the atmosphere, 
-                      for the sky was a dead black, and the stars had ceased to twinkle. 
+                      Every year, SAA will organize several professional development workshops, 
+                      focusing on study plans, ways to find research opprtunities, preparations for finding jobs,
+                      and tips on graduate school applications.
                     </h3>
                 </div>
             </div> 
@@ -109,11 +110,13 @@ class Gallery extends Component {
             <div className="row text-center">
                 <div className="col-sm-4 col-sm-offset-2 text-left">
                     <p className="titletext">
-                      The idea for creating this typeface.
+                      Encourage SJTU students to outreach at US.
                     </p>
                     <h3 className="pasText">
-                      My idea was to draw something with good style, that reflects Swedish design and their passion for a good lifestyle,
-                      .
+                      To get the students better involved into the US environment, SAA plays a role of bridging UM resources 
+                      with the JI community. In March 2017, SAA co-founded and co-held the first Michigan China Forum to connect Michigan
+                      and China, and to inspire young global leaders. Every semester, we also hold events to enhance the immersion 
+                      of SJTU students in the American community.
                     </h3>
                 </div>
                <div className="col-sm-4 text-center wow fadeInUp">
@@ -144,12 +147,13 @@ class Gallery extends Component {
                 </div>
                 <div className="col-sm-4 text-left">
                     <p className="titletext">
-                      Newut' site again and noticed that I had.
-
+                      Strengthen SJTU’s student-alumni community at US.
+ 
                     </p>
                     <h3 className="pasText">
-                      The previous version of Josefin Sans included Extended Latin characters in the Latin subset. 
-                      If you are experiencing problems.
+                      The SJTU community, including alumni, students, faculties, staffs and parents, is a large and diversified group.
+                      It can make a huge impact if fully leveraged. SAA is working on building a strong alumni network in US and developing
+                      close bonding between alumni and students.
                     </h3>
                 </div>
             </div>

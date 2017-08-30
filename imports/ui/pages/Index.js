@@ -28,7 +28,7 @@ const Index = () => (
 		<Grid>
 	    	<div className="row sectionOne-info wow fadeIn">
       		<div className="col-sm-10 col-sm-offset-1 text-center">
-	        	<h1 className="wow fadeIn title-one">WELCOME TO SJTU-AA</h1>
+	        	<h1 className="wow fadeIn title-one">WELCOME TO SJTU-SAA</h1>
 	        	<br />
 	        	<div className="wow fadeIn" data-wow-delay="0.5s">
 	        		<p className="lead" >SJTU STUDENT & ALUMNI ASSOCIATION AT UM</p>
@@ -49,14 +49,14 @@ const Index = () => (
 				    <div className="col-sm-6 wow fadeInUp text-center" data-wow-delay="0.1s">
 				    	<img  id="fourimage" src="img/first.png" alt="Responsive image"/>
 					    <h3 style={{color: '#FFFFFF'}}>The first</h3>
-					    <p style={{color: '#FFFFFF'}}>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.</p>
+					    <p style={{color: '#FFFFFF'}}>We are an official student organization,<br/> recognized by both UM and SJTU.</p>
 				    </div>
 					</div>
 					<div className="second">
 				    <div className="col-sm-6 wow fadeInUp text-center second" data-wow-delay="0.2s">
 				    	<img  id="fourimage" src="img/second.png" alt="Responsive image"/>
 					    <h3 style={{color: '#FFFFFF'}}>The second</h3>
-					    <p style={{color: '#FFFFFF'}}>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.</p>
+					    <p style={{color: '#FFFFFF'}}>SAA is completely run by students.</p>
 				    </div>
 					</div>
 				</div>
@@ -65,14 +65,14 @@ const Index = () => (
 				    <div className="col-sm-6  wow fadeInUp text-center third" data-wow-delay="0.3s">
 				    	<img  id="fourimage" src="img/fourth.png" alt="Responsive image"/>
 					    <h3 style={{color: '#FFFFFF'}}>The third</h3>
-					    <p style={{color: '#FFFFFF'}}>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.</p>
+					    <p style={{color: '#FFFFFF'}}>We aims at serving the SJTU students, alumni,<br/> and the broader UM community.</p>
 				    </div>
 					</div>
 					<div className="fourth">
 				    <div className="col-sm-6 wow fadeInUp text-center fourth" data-wow-delay="0.3s">
 				    	<img  id="fourimage" src="img/third.png" alt="Responsive image"/>
 					    <h3 style={{color: '#FFFFFF'}}>The fourth</h3>
-					    <p style={{color: '#FFFFFF'}}>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.</p>
+					    <p style={{color: '#FFFFFF'}}>We work closely with university departments,<br/> industry partners, and alumni.</p>
 				   	</div>
 					</div>
 				</div>
